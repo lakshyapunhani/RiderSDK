@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/startUpdatesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start location updates" />
+
+    <Button
+        android:id="@+id/stopUpdatesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop location updates" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/firstUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_onDuty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OnDuty" />
+
+        <Button
+            android:id="@+id/btn_offDuty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OffDuty" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/changeTitleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change title" />
+
+
+
+</LinearLayout>
